@@ -1,0 +1,24 @@
+{
+  "properties": [
+    {
+      "name": "global-logistic.openapi.url",
+      "type": "java.lang.String",
+      "description": "Description for global-logistic.openapi.url."
+    },
+    {
+      "name": "global-logistic.openapi.description",
+      "type": "java.lang.String",
+      "description": "Description for global-logistic.openapi.description."
+    },
+    {
+      "name": "global-logistic.app.jwtSecret",
+      "type": "java.lang.String",
+      "description": "Description for global-logistic.app.jwtSecret."
+    },
+    {
+      "name": "global-logistic.app.jwtExpirationMs",
+      "type": "java.lang.String",
+      "description": "Description for global-logistic.app.jwtExpirationMs."
+    }
+
+  ] }

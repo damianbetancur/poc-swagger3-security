@@ -1,0 +1,33 @@
+# Properties file for local/dev enviroment
+# You need to configure the environment variable in your IDE, more info in README.md
+# Overrides application.yml default properties
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/poc_swagger3_security?useSSL=true&serverTimezone=UTC&characterEncoding=UTF-8
+    username: ${LOCAL_DB_USER}
+    password: ${LOCAL_DB_PASSWORD}
+
+  jpa:
+    open-in-view: false
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQLDialect
+
+  sql:
+    init:
+      mode: always
+      data-locations: classpath*:data.sql
+
+server:
+  port: 8083 # no cambiar en prod
+
+
+global-logistic:
+  openapi:
+    url: http://localhost:8083
+    description: Server URL in Develop Environment
+
+
