@@ -1,24 +1,13 @@
 {
   "properties": [
     {
-      "name": "global-logistic.openapi.url",
+      "name": "poc_swagger3_security.app.jwtSecret",
       "type": "java.lang.String",
-      "description": "Description for global-logistic.openapi.url."
+      "description": "Description for poc_swagger3_security.app.jwtSecret."
     },
     {
-      "name": "global-logistic.openapi.description",
+      "name": "poc_swagger3_security.app.jwtExpirationMs",
       "type": "java.lang.String",
-      "description": "Description for global-logistic.openapi.description."
-    },
-    {
-      "name": "global-logistic.app.jwtSecret",
-      "type": "java.lang.String",
-      "description": "Description for global-logistic.app.jwtSecret."
-    },
-    {
-      "name": "global-logistic.app.jwtExpirationMs",
-      "type": "java.lang.String",
-      "description": "Description for global-logistic.app.jwtExpirationMs."
+      "description": "Description for poc_swagger3_security.app.jwtExpirationMs."
     }
-
   ] }

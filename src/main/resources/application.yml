@@ -1,6 +1,6 @@
 # Archivo de propiedades por defecto
 
-global-logistic:
+poc_swagger3_security:
   app:
     jwtSecret: secretKey
     jwtExpirationMs: 86400000
